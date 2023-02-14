@@ -25,35 +25,44 @@
 
 <body class="debug">
     <header>
+        <!-- Top navigation bar -->
         <nav class="navbar navbar-expand">
             <div class="container-fluid">
+                <!-- Logo -->
                 <a class="navbar-brand" href="#">
                     <img src="" class="d-block d-xl-none" alt="Logo Boolean small">
                     <img src="" class="d-none d-xl-block" alt="Logo Boolean">
-
                 </a>
-              <form class="d-flex">
-                <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                
-              </form>
-              <ul class="navbar-nav ms-auto my-2 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item d-none d-xl-block">
-                    <a class="nav-link" href="#">Elenco</a>
-                </li>
-                <li class="nav-item d-none d-xl-block">
-                    <a class="nav-link" href="#">Guida</a>
-                </li>
-                <li class="nav-item d-none d-xl-block">
-                    <a class="nav-link" href="#">Altro</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Dropdown</a>
-                </li>
+                <!-- /Logo -->
+                <!-- Search bar -->
+                <form class="d-flex">
+                    <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                </form>
+                <!-- /Search bar -->
+                <!-- Functional icons -->
+                <ul class="navbar-nav ms-auto my-2 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link" href="#">Elenco</a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link" href="#">Guida</a>
+                    </li>
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link" href="#">Altro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dropdown</a>
+                    </li>
+                </ul>
+                <!-- Functional icons -->
             </div>
           </nav>
+          <!-- /Top navigation bar -->
     </header>
     <main class="d-flex">
+        <!-- Sidebar -->
         <aside id="sidebar" class="d-flex flex-column">
+            <!-- Top section -->
             <div class="navigation-buttons">
                 <ul class="list-unstyled">
                     <a href="#">
@@ -76,14 +85,22 @@
                     </a>
                 </ul>
             </div>
+            <!-- /Top section -->
+            <!-- Setting section -->
             <div class="setting-button mt-auto">
                 <a href="#">
                     <i class="fa-solid fa-house"></i>
                     <span class="d-none d-xl-inline">Admin</span>
                 </a>
             </div>
+            <!-- /Setting section -->
         </aside>
-        <section id="main-content"></section>
+        <!-- /Sidebar -->
+        <!-- Main content area -->
+        <section id="main-content">
+
+        </section>
+        <!-- /Main content area -->
 
     </main>
 
