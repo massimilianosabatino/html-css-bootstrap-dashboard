@@ -97,7 +97,7 @@
         </aside>
         <!-- /Sidebar -->
         <!-- Main content area -->
-        <section id="main-content container">
+        <section id="main-content" class="container py-4">
             <!-- Top functional section -->
             <section id="functional-header">
                 <div class="row">
@@ -108,16 +108,113 @@
             </section>
             <!-- /Top functional section -->
             <!-- Application content area -->
-            <section id="application-content">
+            <section id="application-content" class="">
                 <div class="row">
                     <!-- Left column only on xl breakpoint -->
                     <div class="col-xl-8">
-
+                        <!-- Next classes-->
+                        <div id="class-card" class="card mb-4">
+                            <div class="card-header">
+                                Prossime classi
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col" colspan="2">Nome</th>
+                                        <th scope="col">Data Inizio</th>
+                                        <th scope="col">Roi</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">F</th>
+                                        <td>Classe 75</td>
+                                        <td>15 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>tag</td>
+                                        <td>pulsante pulsante</td>
+                                      </tr>
+                                    
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                        <!-- /Next classes -->
+                        <!-- FAQ -->
+                        <div id="faq-card" class="card mb-4">
+                            <div class="card-header">
+                                F.A.Q.
+                            </div>
+                            <div class="card-body">
+                                <div class="accordion accordion-flush" id="accordionFAQ">
+                                    <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Come aggiungere
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                    </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Come posso
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Posso usare
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ -->
                     </div>
                     <!-- /Left column only on xl breakpoint -->
                     <!-- Right column only on xl breakpoint -->
                     <div class="col-xl-4">
-                        
+                        <div id="todo-card" class="card mb-4">
+                            <div class="card-header">
+                                F.A.Q.
+                            </div>
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="valore1" id="kickoff">
+                                    <label class="form-check-label" for="kickoff">
+                                    Default checkbox
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="valore2" id="lezione" checked>
+                                    <label class="form-check-label" for="lezione">
+                                    Checked checkbox
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="statistic-card" class="card mb-4">
+                            <img src="..." class="card-img-top" alt="Graf">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- /Right column only on xl breakpoint -->
                 </div>
