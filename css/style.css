@@ -9,3 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #F8F9FA;
 }
+
+main {
+    height: calc(100vh - var(--ms-header-height));
+}
