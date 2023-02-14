@@ -1,6 +1,11 @@
+@import 'header.css';
+@import 'sidebar.css';
+@import 'main-content.css';
+
 /*
 *  Project setting
 */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
 }

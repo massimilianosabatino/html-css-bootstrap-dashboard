@@ -1,0 +1,22 @@
+/******* DEBUG *******/
+.debug #sidebar {
+    background-color: bisque;
+}
+
+/******* /DEBUG *******/
+
+
+#sidebar {
+    height: calc(100vh - var(--ms-header-height));
+    padding: 1.875rem 1.5rem;
+}
+
+
+/*
+*  Media queries
+*/
+@media screen and (min-width: 1200px) {
+    #sidebar {
+        max-width: 9.375rem;
+    }
+}

@@ -1,0 +1,23 @@
+:root {
+    --ms-header-height: 5.625rem;
+}
+
+
+.debug header {
+    background-color: aqua;
+}
+
+/******* /DEBUG *******/
+
+
+
+header {
+    height: var(--ms-header-height);
+}
+
+
+
+
+
+
+
