@@ -20,6 +20,10 @@
     text-decoration-line: none;
 }
 
+#sidebar ul li:hover {
+    background-color: #434343;
+}
+
 /*** Icon horizontal align and reset position ***/
 #sidebar ul a li i {
     font-size: var(--ms-font-awesome-sidebar-size);
