@@ -322,7 +322,69 @@
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <p>text</p>
+                <form method="get">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="surname" class="form-label">Cognome</label>
+                        <input type="text" class="form-control" id="surname">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label for="email" class="form-label w-100">Email</label>
+                        <span class="input-group-text" id="email-symbol">@</span>
+                        <input type="email" class="form-control" id="email" aria-describedby="email-symbol">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label for="email2" class="form-label w-100">Indirizzo Email</label>
+                        <span class="input-group-text" id="email-symbol2">@</span>
+                        <input type="email" class="form-control" id="email2" aria-describedby="email-symbol2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password2" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control" id="address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">Città</label>
+                        <input type="text" class="form-control" id="city">
+                    </div>
+                    <div class="mb-3">
+                        <label for="stato" class="form-label">Stato</label>
+                        <select class="form-select" id="stato" aria-label="Stato select">
+                            <option selected>Scegli...</option>
+                            <option value="1">Italia</option>
+                            <option value="2">Europa</option>
+                            <option value="3">Estero</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="postal" class="form-label">CAP</label>
+                        <input type="text" class="form-control" id="postal">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Foto</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="accetto" id="accept-condition">
+                        <label class="form-check-label" for="accept-condition">
+                        Seleziona per proseguire
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-primary" type="submit" value="submit">Salva</button>
+                        <button class="btn btn-warning" type="reset" value="reset">Svuota</button>
+                    </div>
+                </form>
             </div>
         <!-- /Form Offcanvas -->
     </main>
