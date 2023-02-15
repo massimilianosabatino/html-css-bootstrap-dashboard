@@ -1,11 +1,9 @@
+/*
+*  Variables
+*/
 :root {
     --ms-header-height: 4.375rem;
 }
-
-
-
-/******* /DEBUG *******/
-
 
 
 header {
@@ -38,8 +36,6 @@ header {
 .-ms-top-right-menu-style > li:last-child i {
     color: #ff8f00;
 }
-
-
 
 .-ms-top-right-menu-style .dropdown-toggle::after {
     display: none;

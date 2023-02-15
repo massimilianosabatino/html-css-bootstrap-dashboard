@@ -3,13 +3,13 @@
     flex: 1 1 0%;
 }
 
-
-/*** Top functional section ***/
+/*
+*  Top functional section 
+*/
 #functional-header {
     background-color: #1B72E8;
     color: #fff;
 }
-
 
 /*** Badge list ***/
 #functional-header .-ms-badge-color {
@@ -30,7 +30,6 @@
 /*
 *  Application content
 */
-
 /*** Class ***/
 #class-table {
     white-space: nowrap;
@@ -54,10 +53,12 @@
     padding-left: 2.5rem;
 }
 
-
+/*** Form offcanvas ***/
 .offcanvas-end {
     width: 100vw;
 }
+
+
 
 /*
 *  Media queries
