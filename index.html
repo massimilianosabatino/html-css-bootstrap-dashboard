@@ -26,32 +26,35 @@
 <body class="debug">
     <header>
         <!-- Top navigation bar -->
-        <nav class="navbar navbar-expand navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-light bg-white py-0">
             <div class="container-fluid">
                 <!-- Logo -->
-                <a class="navbar-brand" href="#">
-                    <img src="" class="d-block d-xl-none" alt="Logo Boolean small">
-                    <img src="" class="d-none d-xl-block" alt="Logo Boolean">
+                <a class="navbar-brand py-0" href="#">
+                    <img src="img/mobile-logo.png" class="d-block d-xl-none" alt="Logo Boolean small">
+                    <img src="img/logo.svg" class="d-none d-xl-block" alt="Logo Boolean">
                 </a>
                 <!-- /Logo -->
                 <!-- Search bar -->
-                <form class="d-flex">
-                    <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                <form class="d-flex flex-grow-1 -ms-search-style">
+                    <div class="input-group">
+                        <div class="input-group-text border-end-0"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <input class="form-control border-start-0" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </div>
                 </form>
                 <!-- /Search bar -->
                 <!-- Functional icons -->
-                <ul class="navbar-nav ms-auto my-2 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll -ms-top-right-menu-style" style="--bs-scroll-height: 100px;">
                     <li class="nav-item d-none d-xl-block">
-                        <a class="nav-link" href="#">Elenco</a>
+                        <a class="nav-link" href="#"><i class="fa-solid fa-list-ul"></i></a>
                     </li>
                     <li class="nav-item d-none d-xl-block">
-                        <a class="nav-link" href="#">Guida</a>
+                        <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
                     </li>
                     <li class="nav-item d-none d-xl-block">
-                        <a class="nav-link" href="#">Altro</a>
+                        <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Dropdown</a>
+                        <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
                     </li>
                 </ul>
                 <!-- Functional icons -->
@@ -97,7 +100,7 @@
         </aside>
         <!-- /Sidebar -->
         <!-- Main content area -->
-        <section id="main-content" class="container py-4">
+        <section id="main-content" class="container-fluid py-4">
             <!-- Top functional section -->
             <section id="functional-header">
                 <div class="row">

@@ -7,7 +7,6 @@
 
 
 #sidebar {
-    height: calc(100vh - var(--ms-header-height));
     padding: 1.875rem 1.5rem;
 }
 
