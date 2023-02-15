@@ -25,3 +25,45 @@
 #online-now > div:last-child {
     font-size: 2rem;
 }
+
+
+/*
+*  Application content
+*/
+
+/*** Class ***/
+#class-table {
+    white-space: nowrap;
+}
+
+#class-table > tbody td:first-child::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../img/class-avatar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1.875rem; 
+    height: 1.875rem;
+    vertical-align: middle;
+    margin-right: .625rem;
+}
+
+/* #class-table > thead th:first-child {
+    width: auto;
+} */
+
+
+
+@media screen and (min-width: 768px) {
+    #class-table > thead th:first-child {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    #class-table > thead th:first-child {
+        width: 60%;
+    }
+    
+}
