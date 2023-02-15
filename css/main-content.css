@@ -48,11 +48,23 @@
     margin-right: .625rem;
 }
 
+
 /* #class-table > thead th:first-child {
     width: auto;
 } */
 
+/*** ToDo ***/
 
+/* #todo-card .form-check .form-check-input {
+    margin-left: -.5em;
+}
+#todo-card .form-check .form-check-label {
+    margin-left: .5em;
+} */
+
+#todo-card .list-group .list-group-item {
+    padding-left: 2.5rem;
+}
 
 @media screen and (min-width: 768px) {
     #class-table > thead th:first-child {
