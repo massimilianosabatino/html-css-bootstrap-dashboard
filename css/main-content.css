@@ -49,23 +49,16 @@
 }
 
 
-/* #class-table > thead th:first-child {
-    width: auto;
-} */
-
 /*** ToDo ***/
-
-/* #todo-card .form-check .form-check-input {
-    margin-left: -.5em;
-}
-#todo-card .form-check .form-check-label {
-    margin-left: .5em;
-} */
-
 #todo-card .list-group .list-group-item {
     padding-left: 2.5rem;
 }
 
+
+
+/*
+*  Media queries
+*/
 @media screen and (min-width: 768px) {
     #class-table > thead th:first-child {
         width: 40%;
