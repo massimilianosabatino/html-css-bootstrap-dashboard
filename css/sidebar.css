@@ -1,13 +1,31 @@
-/******* DEBUG *******/
-.debug #sidebar {
-    background-color: bisque;
+/*
+*  Variables
+*/
+:root {
+    --ms-font-awesome-sidebar-size: 1rem;
 }
 
-/******* /DEBUG *******/
 
-
+/*
+*  Sidebar
+*/
 #sidebar {
     padding: 1.875rem 1.5rem;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+}
+
+#sidebar ul a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+/*** Icon horizontal align and reset position ***/
+#sidebar ul a li i {
+    font-size: var(--ms-font-awesome-sidebar-size);
+    width: calc(var(--ms-font-awesome-sidebar-size) + .5rem);
+    text-align: center;
+    margin-left: calc(((var(--ms-font-awesome-sidebar-size) + .5rem) / 2) * -1);
 }
 
 
