@@ -111,18 +111,47 @@
         </aside>
         <!-- /Sidebar -->
         <!-- Main content area -->
-        <section id="main-content" class="container-fluid py-4">
+        <section id="main-content" class="">
             <!-- Top functional section -->
-            <section id="functional-header">
-                <div class="row">
-                    <div class="col-md-4 col-xl-6"></div>
-                    <div class="col-md-4 col-xl-4"></div>
-                    <div class="col-md-4 col-xl-2"></div>
+            <section id="functional-header" class="">
+                <div class="container-fluid pt-4 pb-3">
+                    <div class="row">
+                        <!-- Add student -->
+                        <div id="add-student" class="col-md-4 col-xl-2 order-md-1 my-3">
+                            <span class="me-3">Nuovo studente</span>
+                            <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#-ms-form-data" aria-controls="-ms-form-data"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <!-- /Add student -->
+                        <!-- Badge list -->
+                        <div class="col-md-4 col-xl-6 my-3">
+                            <div id="page-title">
+                                <h1 class="d-inline">Boolean</h1>
+                                <span class="badge rounded-pill -ms-badge-color">Piano blaze</span>
+                            </div>
+                            <div id="badge-list" class="d-flex align-items-center mt-1 ">
+                                <span class="badge rounded-pill -ms-badge-color">3 app</span>
+                                <i class="fa-solid fa-angles-right mx-1"></i>
+                                <ul class="list-unstyled mb-0 d-flex">
+                                    <li><span class="badge rounded-pill d-xl-none -ms-badge-color">+</span></li>
+                                    <li><span class="badge rounded-pill d-none d-xl-inline -ms-badge-color">Boolean mobile app</span></li>
+                                    <li><span class="badge rounded-pill d-none d-xl-inline -ms-badge-color">Boolean web app</span></li>
+                                    <li><span class="badge rounded-pill d-none d-xl-inline -ms-badge-color">Boolean blog app</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /Badge list -->
+                        <!-- Online now -->
+                        <div id="online-now" class="col-md-4 col-xl-4 my-3">
+                            <div>Studenti online negli ultimi 30 minuti</div>
+                            <div>125</div>
+                        </div>
+                        <!-- /Online now -->
+                    </div>
                 </div>
             </section>
             <!-- /Top functional section -->
             <!-- Application content area -->
-            <section id="application-content" class="">
+            <section id="application-content" class="container-fluid py-4">
                 <div class="row">
                     <!-- Left column only on xl breakpoint -->
                     <div class="col-xl-8">
@@ -236,7 +265,16 @@
             <!-- /Application content area -->
         </section>
         <!-- /Main content area -->
-
+        <!-- Form Offcanvas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="-ms-form-data" aria-labelledby="-ms-form-dataLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="-ms-form-dataLabel">Inserisci un nuovo studente</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>text</p>
+            </div>
+        <!-- /Form Offcanvas -->
     </main>
 
     <!-- Bootstrap JS -->
