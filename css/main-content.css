@@ -55,6 +55,9 @@
 }
 
 
+.offcanvas-end {
+    width: 100vw;
+}
 
 /*
 *  Media queries
@@ -63,7 +66,17 @@
     #class-table > thead th:first-child {
         width: 40%;
     }
+
+    #-ms-form-data .input-group {
+        width: 50%;
+    }
     
+}
+
+@media screen and (max-width: 768px) {
+    #-ms-form-data .input-group {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -71,4 +84,7 @@
         width: 60%;
     }
     
+    .offcanvas-end {
+        width: 50vw;
+    }
 }
