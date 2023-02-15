@@ -2,7 +2,7 @@
 *  Variables
 */
 :root {
-    --ms-font-awesome-sidebar-size: 1rem;
+    --ms-font-awesome-sidebar-size: 1.25rem;
 }
 
 
@@ -20,6 +20,10 @@
     text-decoration-line: none;
 }
 
+#sidebar ul li {
+    margin-bottom: .625rem;
+}
+
 #sidebar ul li:hover {
     background-color: #434343;
 }
@@ -29,9 +33,13 @@
     font-size: var(--ms-font-awesome-sidebar-size);
     width: calc(var(--ms-font-awesome-sidebar-size) + .5rem);
     text-align: center;
-    margin-left: calc(((var(--ms-font-awesome-sidebar-size) + .5rem) / 2) * -1);
+/*** riportava le icone allineate a sinistra- problema con hover ***/
+    /* margin-left: calc(((var(--ms-font-awesome-sidebar-size) + .5rem) / 2) * -1); */
 }
 
+#sidebar ul a li span {
+    padding-left: .5rem;
+}
 
 /*
 *  Media queries
