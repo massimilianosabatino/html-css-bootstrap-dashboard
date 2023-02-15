@@ -10,8 +10,8 @@
 
 header {
     height: var(--ms-header-height);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #f8f9fa;
 }
 
@@ -41,5 +41,7 @@ header {
 
 
 
-
+.-ms-top-right-menu-style .dropdown-toggle::after {
+    display: none;
+}
 
